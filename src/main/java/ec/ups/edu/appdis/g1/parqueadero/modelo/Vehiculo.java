@@ -23,4 +23,5 @@ public class Vehiculo {
 	public void setColor(String color) {
 		this.color = color;
 	}
+	//pruba
 }
