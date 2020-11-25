@@ -1,6 +1,8 @@
 package ec.ups.edu.appdis.g1.parqueadero.modelo;
 
-public class Cliente {
+import java.io.Serializable;
+
+public class Cliente implements Serializable{
 
 	private String dni;
 	private int tipoDocumento;

@@ -1,8 +1,9 @@
 package ec.ups.edu.appdis.g1.parqueadero.modelo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class Ticket {
+public class Ticket implements Serializable{
 	private int codigo;
 	private Date fechaIngreso;
 	private Date fechaSalida;

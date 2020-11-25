@@ -1,8 +1,9 @@
 package ec.ups.edu.appdis.g1.parqueadero.modelo;
 
+import java.io.Serializable;
 import java.util.Date;
 
-public class CierreDiaHora {
+public class CierreDiaHora implements Serializable{
 	
 	private Date fecha;
 	private int hora;

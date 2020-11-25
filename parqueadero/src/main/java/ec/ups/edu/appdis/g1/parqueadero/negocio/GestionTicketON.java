@@ -12,7 +12,7 @@ import ec.ups.edu.appdis.g1.parqueadero.modelo.Ticket;
 import ec.ups.edu.appdis.g1.parqueadero.modelo.Vehiculo;
 
 @Stateless
-public class GestionTicketON {
+public class GestionTicketON implements GestionTicketOnRemoto {
 	@Inject
 	private ClienteDAO daoCliente;
 	private VehiculoDAO daoVehiculo;
