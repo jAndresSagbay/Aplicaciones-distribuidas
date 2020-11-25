@@ -6,6 +6,7 @@ import javax.ejb.Stateless;
 import javax.inject.Inject;
 
 import ec.ups.edu.appdis.g1.parqueadero.dao.ClienteDAO;
+import ec.ups.edu.appdis.g1.parqueadero.dao.VehiculoDAO;
 import ec.ups.edu.appdis.g1.parqueadero.modelo.Cliente;
 import ec.ups.edu.appdis.g1.parqueadero.modelo.Ticket;
 import ec.ups.edu.appdis.g1.parqueadero.modelo.Vehiculo;
@@ -14,6 +15,7 @@ import ec.ups.edu.appdis.g1.parqueadero.modelo.Vehiculo;
 public class GestionTicketON {
 	@Inject
 	private ClienteDAO daoCliente;
+	private VehiculoDAO daoVehiculo;
 	
 	public boolean registrarTicket(Ticket ticket) {
 		return true;
